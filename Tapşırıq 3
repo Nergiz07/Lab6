@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f2f2;
+    }
+
+    nav {
+      background: black;
+      padding: 12px 15px;
+      margin: 20px 5px;
+      border: 1px solid #444;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .left-menu {
+      display: flex;
+      gap: 15px;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+
+    .login-btn {
+      border: 2px solid #4da3ff;
+      padding: 2px 6px;
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="navbar">
+      <div class="left-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+      </div>
+
+      <a href="#" class="login-btn">Login</a>
+    </div>
+  </nav>
+
+</body>
+</html>
